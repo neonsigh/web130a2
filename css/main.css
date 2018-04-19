@@ -1,0 +1,27 @@
+article {
+  max-width: 1100px;
+  margin: 20px auto; }
+  article .wa {
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%; }
+  @media screen and (min-width: 40em) and (max-width: 63.99em) {
+    article {
+      margin: 20px 20px; } }
+  @media screen and (max-width: 39.99em) {
+    article {
+      margin: 15px 15px; } }
+  article section {
+    column-count: 3; }
+    article section p:first-child {
+      margin-top: 0; }
+    @media screen and (min-width: 40em) and (max-width: 63.99em) {
+      article section {
+        column-count: 2; } }
+    @media screen and (max-width: 39.99em) {
+      article section {
+        column-count: 1; } }
+
+/*# sourceMappingURL=main.css.map */
